@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/_btns\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/_btns\.scss}line{font-family:\000031}}
 .btn {
   font-size: 1rem;
   display: inline;
@@ -9,14 +9,14 @@
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/_btns\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/_btns\.scss}line{font-family:\0000310}}
 .btn--fill {
   background-color: #d21826;
   color: #f4f4f4;
 }
 
 /***** RESETS, DEFAULTS & BASIC TYPOGRAPHY *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\000037}}
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -25,23 +25,23 @@ html {
   color: #333333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000315}}
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000319}}
 a {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000323}}
 .t-farther {
   letter-spacing: -0.25rem;
 }
 
 /***** LAYOUT *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000328}}
 .content-area {
   width: 62.5rem;
   /* 1000px */
@@ -49,7 +49,7 @@ a {
 }
 
 /***** HEADER, LOGO & NAV *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000334}}
 header {
   height: 6.25rem;
   /* 100px */
@@ -59,7 +59,7 @@ header {
   display: flex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000339}}
 .logo__square {
   position: relative;
   width: 6.25rem;
@@ -68,7 +68,7 @@ header {
   background-color: #d21826;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000346}}
 .logo__type {
   position: absolute;
   bottom: 0;
@@ -81,7 +81,7 @@ header {
   line-height: 0.65em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000358}}
 nav {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -93,7 +93,7 @@ nav {
   display: flex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000363}}
 .nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -116,12 +116,12 @@ nav {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000376}}
 .nav__item {
   margin-right: 2.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000380}}
 .nav__item:last-of-type {
   margin-right: 0;
   padding-left: 2.5rem;
@@ -131,32 +131,32 @@ nav {
   font-size: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000389}}
 .nav__item a {
   color: #333333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000393}}
 .nav__item--highlight {
   color: #d21826;
 }
 
 /***** HERO *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\0000399}}
 .hero {
   height: 40rem;
   position: relative;
   margin-bottom: 0.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003105}}
 .hero__image {
   position: absolute;
   right: -2rem;
   top: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003111}}
 .hero__year {
   padding-top: 6rem;
   font-size: 6rem;
@@ -166,7 +166,7 @@ nav {
   color: #d7d7d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003120}}
 .hero__main-copy__brand {
   display: block;
   color: #a4905e;
@@ -175,12 +175,12 @@ nav {
   letter-spacing: -0.04rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003128}}
 .hero__main-copy__wrapper {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003132}}
 .hero__main-copy__model-name {
   line-height: 4.2rem;
   padding-top: 0.5rem;
@@ -189,7 +189,7 @@ nav {
   letter-spacing: -0.4rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003140}}
 .hero__main-copy__model-tagline {
   font-size: 1.5rem;
   font-weight: 700;
@@ -197,7 +197,7 @@ nav {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003147}}
 .hero__cta {
   display: block;
   padding-top: 1rem;
@@ -205,18 +205,18 @@ nav {
 }
 
 /***** SHOWCASE *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003154}}
 .showcase {
   margin-bottom: 2rem;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003159}}
 .showcase > * {
   height: 12.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003163}}
 .showcase__arrow-left,
 .showcase__arrow-right {
   position: absolute;
@@ -230,14 +230,14 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003170}}
 .showcase__arrow-left a,
 .showcase__arrow-right a {
   font-size: 2rem;
   color: #d21826;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003176}}
 .showcase__arrow-left {
   left: -3rem;
   -webkit-box-pack: start;
@@ -246,7 +246,7 @@ nav {
           justify-content: flex-start;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003181}}
 .showcase__arrow-right {
   right: -3rem;
   -webkit-box-pack: end;
@@ -255,7 +255,7 @@ nav {
           justify-content: flex-end;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003186}}
 .showcase__items-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -270,7 +270,7 @@ nav {
           justify-content: space-between;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003192}}
 .showcase__item {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
@@ -280,27 +280,27 @@ nav {
   color: #333333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003199}}
 .showcase__item__img {
   display: block;
   margin-bottom: 0.6rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003204}}
 .showcase__item__price {
   color: #d21826;
 }
 
 /***** VIDEO *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003210}}
 .video {
   height: 43.75rem;
-  background-image: url(/assets/bg2.jpg);
+  background-image: url("assets/bg2.jpg");
   background-size: cover;
   background-position: 0 -3rem;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003217}}
 .video h2 {
   padding-top: 5rem;
   font-size: 3rem;
@@ -309,7 +309,7 @@ nav {
   margin-bottom: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003226}}
 .video__cta {
   display: block;
   color: white;
@@ -317,13 +317,13 @@ nav {
   margin-bottom: 5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003233}}
 .video__branding {
   margin: 0 auto;
   padding-bottom: 5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003237}}
 .video__play {
   display: block;
   color: white;
@@ -332,7 +332,7 @@ nav {
 }
 
 /***** CARD *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003246}}
 .media {
   display: -webkit-box;
   display: -webkit-flex;
@@ -344,7 +344,7 @@ nav {
           align-items: flex-start;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003251}}
 .media__body {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -352,7 +352,7 @@ nav {
           flex: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003255}}
 .andrew-card {
   text-align: left;
   background-color: white;
@@ -362,46 +362,46 @@ nav {
   box-shadow: 0px 0px 50px 25px rgba(0, 0, 0, 0.1);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003264}}
 .andrew-card__img {
   margin-right: 0.7rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003268}}
 .andrew-card__body__heading {
   margin: 0 0 3rem;
   font-size: 4rem;
   line-height: 3rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003273}}
 .andrew-card__body__heading .andrew {
   font-size: 3rem;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003278}}
 .andrew-card__body__heading .reynolds {
   margin-left: -0.25rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003286}}
 .andrew-card__body {
   padding: 0 2rem;
   margin: auto 0;
   line-height: 1.8rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003291}}
 .andrew-card__body p:last-of-type {
   margin-bottom: 3rem;
 }
 
 /***** SHOE ANATOMY *****/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003298}}
 .shoe-anatomy {
   position: relative;
   height: 36rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003303}}
 .shoe-anatomy__img {
   display: block;
   position: absolute;
@@ -409,12 +409,12 @@ nav {
   left: calc(50% - 118px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003311}}
 .shoe-anatomy__copy .number {
   font-size: 3rem;
   margin-right: 2.8rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003316}}
 .shoe-anatomy__copy .text {
   padding-top: 0.7rem;
   font-size: 2rem;
@@ -423,23 +423,23 @@ nav {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003326}}
 .shoe-anatomy__copy__01 .number {
   color: #d21826;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003330}}
 .shoe-anatomy__copy__01 .text {
   width: 20rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003335}}
 .shoe-anatomy__copy__02 {
   color: #a7a7a7;
   width: 25rem;
   margin: 0 0 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/Wild\%20Skate\/styles\/main\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003341}}
 .shoe-anatomy__copy__03 {
   color: #d7d7d7;
 }
