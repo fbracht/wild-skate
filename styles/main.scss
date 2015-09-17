@@ -1,0 +1,343 @@
+@import "_colors.scss"; 
+@import "_btns.scss"; 
+@import "_mixins";
+
+
+/***** RESETS, DEFAULTS & BASIC TYPOGRAPHY *****/
+html {
+	box-sizing: border-box;
+	font-size: 16px; 
+	font-family: sans-serif;
+	background-color: $bg-gray;
+	color: $blackish;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+.t-farther {
+	letter-spacing: -0.25rem;
+}
+
+/***** LAYOUT *****/
+.content-area {
+	width: 62.5rem; /* 1000px */
+	margin: 0 auto;
+}
+
+/***** HEADER, LOGO & NAV *****/
+header {
+	height: 6.25rem; /* 100px */
+	display: flex;
+}
+
+.logo__square {
+	position: relative;
+	width: 6.25rem; /* 100px */
+	height: 100%;
+	background-color: $brand-red; 
+}
+
+.logo__type {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-bottom: -1px;
+	margin-left: -1px;
+	color: $bg-gray;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 0.65em;
+}
+
+nav {
+	flex: 1;
+	display: flex;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav__item {
+	margin-right: 2.5rem;
+}
+
+.nav__item:last-of-type {
+	margin-right: 0;
+	padding-left: 2.5rem;
+	border-left: 2px solid $brand-red;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 1rem;
+}
+
+.nav__item a {
+	color: $blackish;
+}
+
+.nav__item--highlight {
+	color: $brand-red;
+}
+
+
+/***** HERO *****/
+.hero {
+	height: 40rem;
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+
+.hero__image {
+	position: absolute;
+	right: -2rem;
+	top: 2rem;
+}
+
+.hero__year {
+	padding-top: 6rem;
+	font-size: 6rem;
+	font-weight: 700;
+	margin-right: -0.375rem;
+	text-align: right;
+	color: $light-gray;
+}
+
+.hero__main-copy__brand {
+	display: block;
+	color: $gold;
+	font-weight: 100;
+	font-size: 1.6rem;
+	letter-spacing: -0.04rem;
+}
+
+.hero__main-copy__wrapper {
+	display: inline-block;
+}
+
+.hero__main-copy__model-name {
+	line-height: 4.2rem;
+	padding-top: 0.5rem;
+	font-weight: 700;
+	font-size: 5.9rem;
+	letter-spacing: -0.4rem;
+}
+
+.hero__main-copy__model-tagline {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.hero__cta {
+	display: block;
+	padding-top: 1rem;
+	font-size: 0; // To remove space between the two buttons
+}
+
+/***** SHOWCASE *****/
+.showcase {
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.showcase > * {
+	height: 12.5rem; // 200px
+}
+
+.showcase__arrow-left,
+.showcase__arrow-right {
+	position: absolute;
+	width: 3rem;
+	display: flex;
+	align-items: center;
+	
+	a {
+		font-size: 2rem;
+		color: $brand-red;
+	}
+}
+
+.showcase__arrow-left {
+	left: -3rem;
+	justify-content: flex-start;
+}
+
+.showcase__arrow-right {
+	right: -3rem;
+	justify-content: flex-end;
+}
+
+.showcase__items-wrapper {
+	display: flex;
+  align-content: center;
+	justify-content: space-between;
+}
+
+.showcase__item {
+	align-self: center;
+	font-weight: 500;
+	line-height: 1.2rem;
+	color: $blackish;
+}
+
+.showcase__item__img {
+	display: block;
+	margin-bottom: 0.6rem;
+}
+
+.showcase__item__price {
+	color: $brand-red;
+}
+
+/***** VIDEO *****/
+
+.video {
+	height: 43.75rem;
+	background-image: url(/assets/bg2.jpg);
+	background-size: cover;
+	background-position: 0 -3rem;
+	text-align: center;
+	
+	h2 {
+		padding-top: 5rem;
+		font-size: 3rem;
+		font-weight: 700;
+		color: $white;
+		margin-bottom: 1rem;
+	}
+}
+
+.video__cta {
+	display: block;
+	color: $white;
+	text-transform: uppercase;
+	margin-bottom: 5rem;
+}
+
+.video__branding {
+	margin: 0 auto;
+	padding-bottom: 5rem;
+}
+.video__play {
+	display: block;
+	color: $white;
+	font-size: 3.5rem;
+	margin: 0 auto 5rem;
+}
+
+/***** CARD *****/
+
+.media {
+	display: flex;
+	align-items: flex-start;
+}
+
+.media__body {
+	flex: 1;
+}
+
+.andrew-card {
+	text-align: left;
+	background-color: $white;
+	width: 50rem;
+	margin: -8rem auto 4rem;
+	padding: 0.7rem;
+	box-shadow: 0px 0px 50px 25px rgba(0,0,0,0.1); 
+}
+
+.andrew-card__img {
+	margin-right: 0.7rem;
+}
+
+.andrew-card__body__heading {
+	margin: 0 0 3rem;
+	font-size: 4rem;
+	line-height: 3rem;
+	
+	.andrew {
+		font-size: 3rem;
+		font-weight: 400;
+	}
+	
+	.reynolds {
+		margin-left: -0.25rem; 
+		// This is a shameless McGyverism due to the fact 
+		// that the shape of the letter R gets automatically 
+		// pushed a little forward. Disable and you'll see.
+	}
+}
+
+.andrew-card__body {
+	padding: 0 2rem; 
+	margin: auto 0;
+	line-height: 1.8rem;
+	
+	p:last-of-type {
+		margin-bottom: 3rem;
+	}
+}
+
+/***** SHOE ANATOMY *****/
+
+.shoe-anatomy {
+	position: relative;
+	height: 36rem; // Height of the shoe image
+}
+
+.shoe-anatomy__img {
+	display: block;
+	position: absolute;
+	bottom: 0; 
+	left: calc(50% - 118px);
+}
+
+.shoe-anatomy__copy {	
+	.number {
+		font-size: 3rem;
+		margin-right: 2.8rem;
+	}
+	
+	.text {
+		padding-top: 0.7rem;
+		font-size: 2rem;
+		font-weight: 700;
+		width: 18rem;
+		margin-bottom: 0;
+	}
+}
+
+.shoe-anatomy__copy__01 {
+	.number {
+		color: $brand-red;
+	}
+	
+	.text {
+		width: 20rem;
+	}
+}
+
+.shoe-anatomy__copy__02 {
+	color: $gray;
+	width: 25rem;
+	margin: 0 0 0 auto;
+}
+
+.shoe-anatomy__copy__03 {
+	color: $light-gray;
+}

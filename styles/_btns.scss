@@ -1,0 +1,13 @@
+.btn {
+	font-size: 1rem; // Spacing is being zeroed on main.css
+	display: inline;
+	border: $brand-red 2px solid;
+	padding: 0.4rem 0.8rem;
+	color: $brand-red;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.btn--fill {
+	background-color: $brand-red;
+	color: $bg-gray;
+}
