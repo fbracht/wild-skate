@@ -295,7 +295,7 @@ nav {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Fabio\/Code\/wild-skate\/styles\/main\.scss}line{font-family:\00003210}}
 .video {
   height: 43.75rem;
-  background-image: url(assets/bg1.jpg);
+  background-image: url(../assets/bg2.jpg);
   background-size: cover;
   background-position: 0 -3rem;
   text-align: center;
